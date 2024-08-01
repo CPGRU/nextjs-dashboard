@@ -1,6 +1,6 @@
-import CardWrapper from '../cards';
-import RevenueChart from '../revenue-chart';
-import LatestInvoices from '../latest-invoices';
+import CardWrapper from '../../ui/dashboard/cards';
+import RevenueChart from '../../ui/dashboard/revenue-chart';
+import LatestInvoices from '../../ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
 import { 
