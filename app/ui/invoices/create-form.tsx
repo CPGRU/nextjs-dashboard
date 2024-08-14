@@ -139,7 +139,7 @@ export default function Form({
               }
           </div>
           <div className="mt-2 text-sm text-red-500">
-              {state.errors? state.message: null}
+              {state.errors && state.message}
           </div>
         </fieldset>
       </div>
