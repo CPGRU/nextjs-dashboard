@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import CardWrapper from '../../ui/dashboard/cards';
 import RevenueChart from '../../ui/dashboard/revenue-chart';
 import LatestInvoices from '../../ui/dashboard/latest-invoices';
@@ -8,6 +9,10 @@ import {
   LatestInvoicesSkeleton,
   CardsSkeleton
 } from '@/app/ui/skeletons';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
  
 export default async function Page() {
   
